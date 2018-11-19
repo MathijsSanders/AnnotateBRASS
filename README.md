@@ -12,13 +12,13 @@ The pre-compiled JAR file is included with the repository, but in case the packa
 
 ```bash
 mvn package clean
-
+```
 
 The following command adds additional statistics to the BRASS output for filtering purposes:
 
 ```bash
-
 java -Xms5G -Xmx10G -jar AnnotateBRASS.jar --input-bam-file input_bam_file --input-brass-bam-file input_brass_bam_file --brass-bed-file gzip_bed_file --output-bed-file output_bed_file --master-control-bam brass_control_bam --shared-individual-controls brass_bam_controls --width-extract width --difference-alignment-scores difference_scores --discordant-distance distance --discordant-distance-search width_search --threads number_of_threads --help --version
+```
 
 - --input-bam-file*: BAM file of sample of interest produced by BWA-mem.
 - --input-brass-bam-file*: BAM file produced by BRASS for the sample of interest.
