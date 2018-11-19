@@ -33,7 +33,7 @@ java -Xms5G -Xmx10G -jar AnnotateBRASS.jar --input-bam-file input_bam_file --inp
 - --threads: Number of threads for annotating the SVs. (Default 1).
 - --help: Help information.
 - --version: Current version number.
-- * Required.
+- \* Required.
 
 *Dependencies*
 - Maven version 3+ (For compiling only).
